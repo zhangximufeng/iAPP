@@ -1,0 +1,11 @@
+1.前端工程化。原则脱离后端
+2.前后端完全分离架构 
+    致命缺点：1.异步带来的搜索引擎的优化 2.ajax 请求太多 出现白屏 loading
+    致命的有点：开发方便
+
+3.fekit
+    npm install fekit -g
+    fekit server 默认端口80
+    fekit server -p 端口号
+    fekit server -n 忽略参数
+    fekit min 合并和压缩 需要配入口
